@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <p>
-        <a href="https://www.https://github.com/rodrigoufv/previsao_tempo_react_js" target="_blank" rel="noreferrer" >Criado por Rodrigo Sidney</a>
+        <a href="https://github.com/rodrigoufv/previsao_tempo_react_js" target="_blank" rel="noreferrer" >Criado por Rodrigo Sidney</a>
       </p>
     </footer>
   );
