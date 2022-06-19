@@ -23,7 +23,15 @@ export default function Current({ weatherInfo, location, date }) {
           <li> Humidade: {weatherInfo.current.humidity}% </li>
           <li>
             {" "}
-            Ventos: {Math.round(weatherInfo.current.wind_speed * 3.6)} km/h{" "}
+            Vento: {Math.round(weatherInfo.current.wind_speed * 3.6)} km/h{" "}
+          </li>
+          <li>
+            {" "}
+            Pressão: {Math.round(weatherInfo.current.pressure)} hpa{" "}
+          </li>
+          <li>
+            {" "}
+            Visibilidade: {Math.round(weatherInfo.current.visibility )} m{" "}
           </li>
         </ul>
       </div>

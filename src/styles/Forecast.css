@@ -14,6 +14,13 @@
   animation-iteration-count: infinite;
 }
 
+.Forecast__weather {
+  margin-right: 1rem;
+  border:1px solid;
+  margin-top: "50px";
+  margin: auto;
+}
+
 @keyframes icons {
   0% {
     position: relative;
@@ -32,6 +39,7 @@
 .Forecast__temperature {
   display: flex;
   justify-content: center;
+  
 }
 
 .temperature__max {

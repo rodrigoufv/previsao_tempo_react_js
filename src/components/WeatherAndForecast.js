@@ -8,6 +8,12 @@ import "../styles/WeatherAndForecast.css";
 function WeatherAndForecast({ weatherInfo, location }) {
   const date = dateBuilder(new Date());
 
+  var indice = 0;
+
+  function GerenciaDiaDetalhado(dia){
+    indice = dia;
+  }
+
   function dateBuilder(d) {
     const days = [
       "Domingo",
@@ -39,15 +45,22 @@ function WeatherAndForecast({ weatherInfo, location }) {
   }
 
   return (
-    <div className="WeatherAndForecast">
-      <Weather weatherInfo={weatherInfo} location={location} date={date[0]} />
-      <div className="WeatherAndForecast__container">
-        <Forecast weatherInfo={weatherInfo.daily[0]} date={date[0]} />
-        <Forecast weatherInfo={weatherInfo.daily[1]} date={date[1]} />
-        <Forecast weatherInfo={weatherInfo.daily[2]} date={date[2]} />
-        <Forecast weatherInfo={weatherInfo.daily[3]} date={date[3]} />
-        <Forecast weatherInfo={weatherInfo.daily[4]} date={date[4]} />
+    <div class="float_container">
+      <div class="inner_float_container">
+
+      <div className="WeatherAndForecast">
+        <Weather weatherInfo={weatherInfo} location={location} date={date[indice]} />
       </div>
+      
+      <div className="WeatherAndForecast__container">
+        <Forecast weatherInfo={weatherInfo.daily[0]} date={date[0]} onclick="GerenciaDiaDetalhado(0)"/>
+        <Forecast weatherInfo={weatherInfo.daily[1]} date={date[1]} onclick="GerenciaDiaDetalhado(1)"/>
+        <Forecast weatherInfo={weatherInfo.daily[2]} date={date[2]} onclick="GerenciaDiaDetalhado(2)"/>
+        <Forecast weatherInfo={weatherInfo.daily[3]} date={date[3]} onclick="GerenciaDiaDetalhado(3)"/>
+        <Forecast weatherInfo={weatherInfo.daily[4]} date={date[4]} onclick="GerenciaDiaDetalhado(4)"/>
+        </div>
+      </div>
+
     </div>
   );
 }

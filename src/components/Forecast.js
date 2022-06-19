@@ -1,13 +1,29 @@
 import React from "react";
 
 import "../styles/Forecast.css";
+import Search from "./Search";
 
 export default function Forecast({ weatherInfo, date }) {
+
+
+
+
+  function handleButtonClick() {
+    //if (currentCity.trim() === "") return;
+    //searchCity(currentCity);
+  }
+
+  function handleKeyPress(e) {
+    //if (e.key === "Enter") handleButtonClick();
+  }
+
+
   return (
-    <div>
+    <div className="Forecast__weather">
       <h1 className="Forecast__title">{[date[0], date[1], date[2]]}</h1>
       <img
         className="Forecast__weather-icon"
+        //onClick={Search("Chicago")}
         src={
           "https://openweathermap.org/img/wn/" +
           weatherInfo.weather[0].icon +
@@ -25,6 +41,7 @@ export default function Forecast({ weatherInfo, date }) {
           <sup className="temperature__symbol">°</sup>
         </span>
       </div>
+      
     </div>
   );
 }

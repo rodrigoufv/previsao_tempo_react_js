@@ -26,6 +26,7 @@ export default function Search({ searchCity }) {
           value={currentCity}
           onChange={handleInputChange}
           onKeyPress={handleKeyPress}
+          placeholder="Pesquisar por cidade"
         />
       </label>
       <button className="Search__button" onClick={handleButtonClick}>
@@ -34,3 +35,4 @@ export default function Search({ searchCity }) {
     </div>
   );
 }
+
