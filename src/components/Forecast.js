@@ -1,13 +1,8 @@
 import React from "react";
 
 import "../styles/Forecast.css";
-import Search from "./Search";
 
 export default function Forecast({ weatherInfo, date, searchCity }) {
-  function handleButtonClick() {
-    alert( 'Alterar exibição detalhada para o dia selecionado!' );
-  }
-
   return (
     <div className="Forecast__weather" >
       <h1 className="Forecast__title">{[date[0], date[1], date[2]]}</h1>
