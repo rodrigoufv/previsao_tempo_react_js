@@ -3,6 +3,9 @@
 Aplicativo web para previsão do tempo utilizando React JS e a API https://openweathermap.org;
 
 
+Link para acessar o aplicativo funcionando: https://rodrigoufv.github.io/previsao_tempo_react_js/
+
+
 ### Objetivo:
 
 Criar um aplicativo que utilize chamadas de uma API para buscar informações sobre o clima de uma determinada cidade e 
