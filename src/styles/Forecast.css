@@ -16,7 +16,7 @@
 
 .Forecast__weather {
   margin-right: 1rem;
-  border:1px solid;
+  border:0px solid;
   margin-top: "50px";
   margin: auto;
 }
@@ -50,3 +50,6 @@
 .temperature__min {
   margin-left: 0.2rem;
 }
+
+
+

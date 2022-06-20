@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 1.5rem;
-  padding: 1rem 6rem;
+  padding: 1rem 2.3rem;
   width: 200px;
 }
 
@@ -24,9 +24,24 @@
   display: table;
 }
 
+.Select__button_day {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 700;
+  background-color: #0dad42;
+  border: 1px solid #a39908;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-content: center;
+  width: 90%;
+  cursor: pointer;
+}
+
 @media (max-width: 375px) {
   .WeatherAndForecast {
     padding: 2rem;
   }
 }
-
