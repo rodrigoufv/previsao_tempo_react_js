@@ -2,6 +2,7 @@
   "name": "previsao_tempo_react_js",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rodrigoufv.github.io/previsao_tempo_react_js",
   "dependencies": {
     "@capacitor/android": "3.6.0",
     "@capacitor/core": "^3.6.0",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "^3.6.0"
+    "@capacitor/cli": "^3.6.0",
+    "gh-pages": "^4.0.0"
   }
 }
