@@ -1,0 +1,7 @@
+{
+  "name": "previsao_tempo_react_js",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

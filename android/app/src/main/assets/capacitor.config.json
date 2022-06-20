@@ -1,0 +1,8 @@
+{
+	"appId": "io.ionic.previsao_tempo_react_js",
+	"appName": "previsao_tempo_react_js",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"cordova": {}
+}
