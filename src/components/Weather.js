@@ -20,18 +20,18 @@ export default function Current({ weatherInfo, location, date }) {
             {Math.round(weatherInfo.current.temp)}
             <sup className="list__temperature-symbol">°C</sup>
           </li>
-          <li> Humidade: {weatherInfo.current.humidity}% </li>
+          <li> Humidade: __ {weatherInfo.current.humidity}% </li>
           <li>
             {" "}
-            Vento: {Math.round(weatherInfo.current.wind_speed * 3.6)} km/h{" "}
+            Vento: _____ {Math.round(weatherInfo.current.wind_speed * 3.6)} km/h{" "}
           </li>
           <li>
             {" "}
-            Pressão: {Math.round(weatherInfo.current.pressure)} hpa{" "}
+            Pressão:____ {Math.round(weatherInfo.current.pressure)} hpa{" "}
           </li>
           <li>
             {" "}
-            Visibilidade: {Math.round(weatherInfo.current.visibility )} m{" "}
+            Visibilidade: _ {Math.round(weatherInfo.current.visibility )} m{" "}
           </li>
         </ul>
       </div>

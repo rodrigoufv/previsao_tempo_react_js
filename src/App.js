@@ -21,13 +21,9 @@ function App() {
   const [locationInfo, setLocationInfo] = useState({});
   const [contentState, setContentState] = useState("blank");  
 
-  if (App.indexInfo !== 0  && App.indexInfo !== 1  && App.indexInfo !== 2  && App.indexInfo !== 3  && App.indexInfo !== 4){
-    App.indexInfo = 0;
-  }  
-
   if (indexInfo === undefined){
-    indexInfo = 0;
-  }
+    App.indexInfo = 0;
+}
 
   function searchCity(target) {
     setAddress(target);
