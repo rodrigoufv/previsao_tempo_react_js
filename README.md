@@ -1,73 +1,56 @@
-# previsao_tempo_react_js
-Aplicativo para previs�o do tempo utilizando React JS
+### previsao_tempo_react_js
 
-# Getting Started with Create React App
+Aplicativo web para previsão do tempo utilizando React JS e a API https://openweathermap.org;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Objetivo:
 
-In the project directory, you can run:
+Criar um aplicativo que utilize chamadas de uma API para buscar informações sobre o clima de uma determinada cidade e 
+exibir as informações de forma organizada para o usuário.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Observações:
 
-### `npm test`
+- Implementar o aplicativo utilizando React Native;
+- Utilizar a API de previsão de 5 dias do site https://openweathermap.org;
+- Publicar o aplicativo no GitHub e enviar o link do repositório;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Apis utilizadas:
 
-### `npm run build`
+- OpenWeatherMap: https://openweathermap.org;
+  Para obter informações sobre o clima
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- OpenCage Geocoding :https://api.opencagedata.com/
+  Para obter informações sobre geolocalização 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Dependencias:
 
-### `npm run eject`
+- Node v16.15.1
+- Axios
+- React
+- React-scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Observação: Para gerar a versão do projeto para android foram usados também:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Ionic
+- Capacitor
+- Android Studio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Execução
 
-## Learn More
+1. Dentro da pasta do projeto rodar o comando `yarn`;
+2. Ainda dentro da pasta, use `npm start`
+3. O Aplicativo estará disponível pelo navegador em http://localhost:3000/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Geração de um projeto Android a partir do Aplicativo Node Js:
 
-### Code Splitting
+- Utilizando Ionic para fazer a conversão disponibilizada no repositório uma pasta com os arquivos da versão do projeto para android
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Observação final
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fazia parte do planejamento criar uma api utilizando Python, Django e Sqlite para funcionar como Backend da aplicação Node JS armazenando informações das buscas e montando um histórico de temperatura. Mas não foi possível terminar essa implementação. A pasta com a criação inicial do Backend utilizando Python e Django ainda esta no repositório mas não esta sendo utilizada
