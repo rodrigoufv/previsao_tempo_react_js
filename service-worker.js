@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/previsao_tempo_react_js/precache-manifest.00bf1aa72e8bc12b9c2001aa655a93c5.js"
+  "/previsao_tempo_react_js/precache-manifest.8c936cde992d0ea31b4efeb64a9f8aa5.js"
 );
 
 workbox.clientsClaim();

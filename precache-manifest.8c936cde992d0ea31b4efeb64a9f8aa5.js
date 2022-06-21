@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "abd8d638376391308c82",
-    "url": "/previsao_tempo_react_js/static/css/main.ab92e1c5.chunk.css"
+    "revision": "8f305fe6968a5b749cbe",
+    "url": "/previsao_tempo_react_js/static/css/main.f08c2a02.chunk.css"
   },
   {
-    "revision": "abd8d638376391308c82",
-    "url": "/previsao_tempo_react_js/static/js/main.abd8d638.chunk.js"
+    "revision": "8f305fe6968a5b749cbe",
+    "url": "/previsao_tempo_react_js/static/js/main.8f305fe6.chunk.js"
   },
   {
     "revision": "55feba063e7c3ffa282a",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/previsao_tempo_react_js/static/media/background.551232ea.jpg"
   },
   {
-    "revision": "c328f9c171abd1b785bff9b332774560",
+    "revision": "687e414ef3a1dcc1b084d5a3aa35faa1",
     "url": "/previsao_tempo_react_js/index.html"
   }
 ];
